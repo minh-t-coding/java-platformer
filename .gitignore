@@ -94,3 +94,13 @@ hs_err_pid*
 replay_pid*
 
 # End of https://www.toptal.com/developers/gitignore/api/java,eclipse
+
+// Source - https://stackoverflow.com/a
+// Posted by VonC, modified by community. See post 'Timeline' for change history
+// Retrieved 2025-11-14, License - CC BY-SA 4.0
+
+# Eclipse Core      
+.project
+
+# JDT-specific (Eclipse Java Development Tools)     
+.classpath
