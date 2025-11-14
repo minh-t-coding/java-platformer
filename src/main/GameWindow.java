@@ -3,18 +3,19 @@ package main;
 import javax.swing.JFrame;
 
 public class GameWindow {
-	private final int WINDOW_WIDTH = 400;
-	private final int WINDOW_HEGHT = 400;
 
-	private JFrame jframe;
+    private final int WINDOW_WIDTH = 400;
+    private final int WINDOW_HEGHT = 400;
 
-	public GameWindow(GamePanel gamePanel) {
-		this.jframe = new JFrame();
+    private JFrame jframe;
 
-		jframe.setSize(WINDOW_WIDTH, WINDOW_HEGHT);
-		jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		jframe.add(gamePanel);
-		jframe.setLocationRelativeTo(null);
-		jframe.setVisible(true);
-	}
+    public GameWindow(GamePanel gamePanel) {
+        this.jframe = new JFrame();
+
+        jframe.setSize(WINDOW_WIDTH, WINDOW_HEGHT);
+        jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jframe.add(gamePanel);
+        jframe.setLocationRelativeTo(null);
+        jframe.setVisible(true);
+    }
 }
